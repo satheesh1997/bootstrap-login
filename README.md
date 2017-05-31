@@ -1,4 +1,4 @@
 # bootstrap_login
 Simple Bootstrap Login Screen
-![alt text](http://imgur.com/a/WHUxs.png)
+![stack Overflow](http://lmsotfy.com/so.png)
 
