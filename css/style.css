@@ -1,0 +1,81 @@
+@font-face{
+    font-family:Jose;
+    src:url(../fonts/JosefinSans-SemiBold.ttf);
+}
+
+*{
+	transition: .5s all ease-out;
+}
+
+body{
+	font-family: sans-serif;
+	/* background:#efeef6; */
+	background:url(../img/20130501_020937_244.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.preloader{
+	position: absolute;
+	transition: 1s all ease;
+	background: white;
+	width: 100%;
+	z-index:9999;
+	text-align: center;
+	height: 100vh;
+}
+.preloader > i{
+	position: relative;
+	top:37vh;
+}
+
+.welcome{
+	padding: 20px;
+}
+
+.brand-logo{
+	width:100px;
+}
+
+h1.brand_name{
+	font-weight: bold;
+}
+
+.login{
+	font-family: sans-serif;
+	margin-top:5%;
+}
+
+h3.heading{
+	text-align: center;
+	font-weight: bold;
+}
+
+.input-group{
+	margin-top: 15px;
+}
+.input-group > .img-circle{
+	margin-top: 5px;
+	transition: .1s all ease-in;
+	margin-bottom: 15px;
+	display: none;
+}
+
+.input-group-addon{
+	transition: 0s all ease;
+}
+
+@media only screen and (max-width: 500px) {
+    h1.brand_name{
+    	margin-top: 10%;
+    	font-size: 23px;
+    	margin-bottom: 10%;
+    	font-weight: bold;
+    }
+    .brand-logo{
+		width:40px;
+		display: none;
+	}
+}
